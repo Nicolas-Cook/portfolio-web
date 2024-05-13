@@ -1,0 +1,9 @@
+{
+    "Index": {
+      "title": "Portafolio",
+      "select": "Seleccione un lenguaje",
+      "language-one": "inglés",
+      "language-two": "español",
+      "locale": "{locale, select, es {Español} en {Inglés} other {Desconocido}}"
+    }
+}
