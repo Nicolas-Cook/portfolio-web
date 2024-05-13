@@ -4,7 +4,7 @@ import { AiFillCode } from "react-icons/ai";
 import { LuGraduationCap } from "react-icons/lu";
 import Placeholder from "../public/Placeholder.png"
 import Project1 from "../public/Project1.png"
-import LookerStudio1 from "../public/LookerStudio1.png"
+import Project2 from "../public/Project2.png"
 
 export const links = [
   {
@@ -125,7 +125,7 @@ export const projectsData = [
     title: "Operational Dashboard",
     description: "This was my applied thesis proyect. It is a system that extracts, transforms and loads data to LookerStudio to create an operational dashboard.",
     tags: ["Apache NiFi", "BigQuery", "LookerStudio"],
-    imageUrl: LookerStudio1
+    imageUrl: Project2
   },
   // {
   //   title: "Placeholder",
@@ -146,7 +146,7 @@ export const projectsDataES = [
     title: "Dashboard Operacional",
     description: "Proyecto aplicado de título. Consiste en un sistema que extrae, transforma y carga data a LookerStudio para crear un dashboard operacional",
     tags: ["Apache NiFi", "BigQuery", "LookerStudio"],
-    imageUrl: LookerStudio1
+    imageUrl: Project2
   },
   // {
   //   title: "Placeholder",
