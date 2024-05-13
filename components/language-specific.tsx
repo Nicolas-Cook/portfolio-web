@@ -2,11 +2,12 @@
 import React, { useEffect } from "react";
 import Header from "@/components/english/header";
 import HeaderES from "@/components/spanish/headerES";
-import Home, { Homes } from "../app/page";
+import Home from "../app/page";
 import useLanguage from "../app/language";
 import LanguageToggleButton from "@/components/language-toggle";
 import Footer from "@/components/english/footer";
 import FooterES from "@/components/spanish/footerES";
+import { LanguageContext } from "@/context/LanguageContext";
 
 const LanguageSpecificComponent: React.FC = () => {
   const { spanish, setSpanish, toggle, detectLanguage } = useLanguage();
@@ -16,19 +17,18 @@ const LanguageSpecificComponent: React.FC = () => {
     if (userLang.includes("es")) {
       setSpanish(true);
     }
-  }, []);
+  }, [setSpanish]);
 
   const HeaderComponent = spanish ? HeaderES : Header;
-  const HomeComponent = spanish ? Homes : Home;
   const FooterComponent = spanish ? FooterES : Footer;
 
   return (
-    <>
+    <LanguageContext.Provider value={{ spanish, setSpanish }}>
       <LanguageToggleButton onClick={toggle} text={detectLanguage()} />
       <HeaderComponent />
-      <HomeComponent />
+      <Home />
       <FooterComponent />
-    </>
+    </LanguageContext.Provider>
   );
 };
 

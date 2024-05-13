@@ -12,37 +12,40 @@ import Experience from "@/components/english/experience";
 import ExperienceES from "@/components/spanish/experienceES";
 import Contact from "@/components/english/contact";
 import ContactES from "@/components/spanish/contactES";
+import { useContext } from "react";
+import { LanguageContext } from "@/context/LanguageContext";
 
 export default function Home() {
-  return (
-    <main className="flex flex-col items-center px-4">
-      <Intro />
-      <SectionDivider />
-      <About />
-      <SectionDivider />
-      <Projects />
-      <SectionDivider />
-      <Skills />
-      <SectionDivider />
-      <Experience />
-      <Contact />
-    </main>
-  );
-}
-
-export function Homes() {
-  return (
-    <main className="flex flex-col items-center px-4">
-      <IntroES />
-      <SectionDivider />
-      <AboutES />
-      <SectionDivider />
-      <ProjectsES />
-      <SectionDivider />
-      <SkillsES />
-      <SectionDivider />
-      <ExperienceES />
-      <ContactES />
-    </main>
-  );
+  const { spanish } = useContext(LanguageContext);
+  if (spanish) {
+    return (
+      <main className="flex flex-col items-center px-4">
+        <IntroES />
+        <SectionDivider />
+        <AboutES />
+        <SectionDivider />
+        <ProjectsES />
+        <SectionDivider />
+        <SkillsES />
+        <SectionDivider />
+        <ExperienceES />
+        <ContactES />
+      </main>
+    );
+  } else {
+    return (
+      <main className="flex flex-col items-center px-4">
+        <Intro />
+        <SectionDivider />
+        <About />
+        <SectionDivider />
+        <Projects />
+        <SectionDivider />
+        <Skills />
+        <SectionDivider />
+        <Experience />
+        <Contact />
+      </main>
+    );
+  }
 }
