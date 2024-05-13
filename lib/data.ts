@@ -137,7 +137,7 @@ export const projectsData = [
 
 export const projectsDataES = [
   {
-    title: "Portfolio",
+    title: "Portafolio",
     description: "Portafolio hecho siguendo un curso de React para mostrar proyectos y aprender más tecnologías",
     tags: ["React", "Tailwind", "Next.js", "Typescript", "Framer Motion"],
     imageUrl: Project1
