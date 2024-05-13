@@ -30,7 +30,7 @@ export default function Home() {
   );
 }
 
-export function HomeES() {
+export function Homes() {
   return (
     <main className="flex flex-col items-center px-4">
       <IntroES />

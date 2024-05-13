@@ -2,7 +2,7 @@
 import React, { useEffect } from "react";
 import Header from "@/components/english/header";
 import HeaderES from "@/components/spanish/headerES";
-import Home, { HomeES } from "../app/page";
+import Home, { Homes } from "../app/page";
 import useLanguage from "../app/language";
 import LanguageToggleButton from "@/components/language-toggle";
 import Footer from "@/components/english/footer";
@@ -19,7 +19,7 @@ const LanguageSpecificComponent: React.FC = () => {
   }, []);
 
   const HeaderComponent = spanish ? HeaderES : Header;
-  const HomeComponent = spanish ? HomeES : Home;
+  const HomeComponent = spanish ? Homes : Home;
   const FooterComponent = spanish ? FooterES : Footer;
 
   return (
