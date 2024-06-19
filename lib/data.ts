@@ -89,12 +89,12 @@ export const experienceData = [
 
 export const experienceDataES = [
   {
-    title: "Desarrollador Full-stack",
+    title: "Título",
     location: "Santiago, Chile",
     description:
-      "Trabajé como Desarrollador Full-stack en Dimension S.A. para mi primera práctica profesional durante 3 meses. Trabajé con un equipo de desarrolladores en una aplicación web de factoring.",
-    icon: React.createElement(AiFillCode),
-    date: "2021 - 2021",
+      "Me gradué después de 6 años de estudios como Ingeniero Civil en Computación e Informática en la Universidad Mayor.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
     title: "Analista de Datos",
@@ -105,13 +105,13 @@ export const experienceDataES = [
     date: "2022 - 2022",
   },  
   {
-    title: "Licenciatura",
+    title: "Desarrollador Full-stack",
     location: "Santiago, Chile",
     description:
-      "Me gradué después de 6 años de estudios.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
+      "Trabajé como Desarrollador Full-stack en Dimension S.A. para mi primera práctica profesional durante 3 meses. Trabajé con un equipo de desarrolladores en una aplicación web de factoring.",
+    icon: React.createElement(AiFillCode),
+    date: "2021 - 2021",
+  }
 ] as const;
 
 export const projectsData = [
