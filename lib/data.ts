@@ -61,6 +61,22 @@ export const linksES = [
 ];
 
 export const experienceData = [
+  {
+    title: "Bachelor's Degree",
+    location: "Santiago, Chile",
+    description:
+      "I graduated after studying Civil Engineering in Computer Science and Informatics for 6 years at Universidad Mayor.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
+  },
+  {
+    title: "Data Analyst",
+    location: "Santiago, Chile",
+    description:
+      "I worked as a Data Analyst for my second profesional internship in Banco Internacional. I also build a ETL system for my applied thesis proyect.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - 2022",
+  },
     {
     title: "Full-stack Developer",
     location: "Santiago, Chile",
@@ -69,22 +85,8 @@ export const experienceData = [
     icon: React.createElement(AiFillCode),
     date: "2021 - 2021",
   },
-    {
-    title: "Data Analyst",
-    location: "Santiago, Chile",
-    description:
-      "I worked as a Data Analyst for my second profesional internship in Banco Internacional. I also build a ETL system for my applied thesis proyect.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - 2022",
-  },
-  {
-    title: "Bachelor's Degree",
-    location: "Santiago, Chile",
-    description:
-      "I graduated after 6 years of studying.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2023",
-  },
+
+
 ] as const;
 
 export const experienceDataES = [

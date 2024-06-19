@@ -20,14 +20,11 @@ export default function About() {
       <SectionHeading>Sobre mi</SectionHeading>
       <p className="mb-3">
         Soy Nicolás Cook, Ingeniero Civil en Computación e Informática de la
-        Universidad Mayor. Poseo experiencia previa como Desarrollador
-        Full-Stack en la empresa Dimensión S.A., donde colaboré en el desarrollo
-        de una aplicación web de Factoring junto a un equipo de desarrolladores.
-        También poseo experiencia como Analista de Datos en el Banco
-        Internacional, donde trabajé con la PMO para recolectar datos y generar
-        métricas a partir de estos. Asimismo, me destaco como un profesional
-        proactivo, dedicado a la constante investigación y aprendizaje para
-        mejorar mis habilidades relacionadas con el desarrollo de software.
+        Universidad Mayor. Me destaco como un profesional proactivo, dedicado a
+        la constante investigación y aprendizaje para mejorar mis habilidades
+        relacionadas con el desarrollo de software. Soy metódico, responsable,
+        soporto trabajar bajo presión, comprometido con las deadline, con
+        enfoque a la satisfacción de los requerimientos de clientes.
       </p>
     </motion.section>
   );
