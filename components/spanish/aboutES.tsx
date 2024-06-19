@@ -23,8 +23,9 @@ export default function About() {
         Universidad Mayor. Me destaco como un profesional proactivo, dedicado a
         la constante investigación y aprendizaje para mejorar mis habilidades
         relacionadas con el desarrollo de software. Soy metódico, responsable,
-        soporto trabajar bajo presión, comprometido con las deadline, con
-        enfoque a la satisfacción de los requerimientos de clientes.
+        soporto trabajar bajo presión y estoy comprometido con los plazos de
+        entrega, con enfoque en la satisfacción de los requerimientos de los
+        clientes.
       </p>
     </motion.section>
   );
